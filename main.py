@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 import random, datetime
-# from key import EMAIL, PASSWORD, CLASS_URL
-from trueKey import EMAIL, PASSWORD, CLASS_URL
+from key import EMAIL, PASSWORD, CLASS_URL
+# from trueKey import EMAIL, PASSWORD, CLASS_URL
 
 def main():
   while True:
