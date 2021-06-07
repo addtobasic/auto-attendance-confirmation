@@ -33,7 +33,7 @@ def main():
       print("ロード中")
       time.sleep(20)
 
-      # handleを開いたタブの方に変更
+      #handleを開いたタブの方に変更
       handle_array = driver.window_handles
       driver.switch_to.window(handle_array[1])
 
@@ -57,7 +57,7 @@ def main():
       form_condition_xpath = '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[5]/div/div/div[2]/div/span/div/label[5]/div[1]'
       driver.find_element_by_xpath(form_condition_xpath).click()
 
-      #体温
+      #どこで授業を受けているか
       form_place_xpath = '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div/span/div/div[2]/label'
       driver.find_element_by_xpath(form_place_xpath).click()
 
