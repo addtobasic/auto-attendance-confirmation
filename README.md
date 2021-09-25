@@ -8,7 +8,7 @@
 
 # Setup
 ```bash
-$ git clone https://github.com/Genshi0916/auto-attendance-confirmation.git
+$ git clone https://github.com/addtobasic/auto-attendance-confirmation.git
 $ cd auto-attendance-confirmation
 $ python3 -m venv venv
 $ source venv/bin/activate
